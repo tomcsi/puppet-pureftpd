@@ -11,6 +11,6 @@
 # Sample Usage:
 #
 # [Remember: No empty lines between comments and class definition]
-class pureftpd ($auth_type = undef, $config_source = undef, $virtualchroot = false) {
+class pureftpd ($auth_type = undef, $config_source = undef, $virtualchroot = false, $mysql_config = false) {
 	include pureftpd::params, pureftpd::install, pureftpd::config, pureftpd::service
 }
